@@ -16,6 +16,8 @@ public class Homework {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//button[contains(text(),'Open Window')]")).click();
 		Thread.sleep(1000);
+		driver.navigate().back();
+		Thread.sleep(1000);
 		driver.close();
 		
 	  

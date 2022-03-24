@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="more_ways.Homework">
+      <class name="more_ways.Vegetables">
         <methods>
-          <include name="LunchBrowser"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- more_ways.Homework -->
+      </class> <!-- more_ways.Vegetables -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
